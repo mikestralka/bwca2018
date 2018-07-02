@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css" />
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css" />
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_0fa9010fa9f449b39f2d33ad4019c42e {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_0fa9010fa9f449b39f2d33ad4019c42e" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_0fa9010fa9f449b39f2d33ad4019c42e = L.map(
+                                  'map_0fa9010fa9f449b39f2d33ad4019c42e',
+                                  {center: [47.901736,-91.630566],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_d421fe8244814ba7a6c2b4434bc64c11 = L.tileLayer(
+                'https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": "Map data: &copy; <a href=\"http://www.openstreetmap.org/copyright\">OpenStreetMap</a>, <a href=\"http://viewfinderpanoramas.org\">SRTM</a> | Map style: &copy; <a href=\"https://opentopomap.org\">OpenTopoMap</a> (<a href=\"https://creativecommons.org/licenses/by-sa/3.0/\">CC-BY-SA</a>)", 
+  "detectRetina": false, 
+  "maxZoom": 18, 
+  "minZoom": 1, 
+  "noWrap": false, 
+  "subdomains": "abc"
+}
+                ).addTo(map_0fa9010fa9f449b39f2d33ad4019c42e);
+        
+    
+
+            var marker_3bbe982f9ab347bc974fd4ce82d75a5b = L.marker(
+                [47.9048135677,-91.6346222463],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0fa9010fa9f449b39f2d33ad4019c42e);
+            
+    
+            var popup_1cc0d1b0614140ee9fd514958f35c0a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_5419a7ce97424b2f82c2271f33f36937 = $('<div id="html_5419a7ce97424b2f82c2271f33f36937" style="width: 100.0%; height: 100.0%;">Day 1: Clear Lake</div>')[0];
+                popup_1cc0d1b0614140ee9fd514958f35c0a7.setContent(html_5419a7ce97424b2f82c2271f33f36937);
+            
+
+            marker_3bbe982f9ab347bc974fd4ce82d75a5b.bindPopup(popup_1cc0d1b0614140ee9fd514958f35c0a7);
+
+            
+        
+    
+
+            var marker_7c315001abc64e30b52a2dca959d5051 = L.marker(
+                [47.8982325664,-91.5756034684],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0fa9010fa9f449b39f2d33ad4019c42e);
+            
+    
+            var popup_7a3869bccb894ef5a58ed48e26b5305c = L.popup({maxWidth: '300'});
+
+            
+                var html_a0c14db983a4407e8afb4159fdc4802d = $('<div id="html_a0c14db983a4407e8afb4159fdc4802d" style="width: 100.0%; height: 100.0%;">Day 2: Kawishiwi River</div>')[0];
+                popup_7a3869bccb894ef5a58ed48e26b5305c.setContent(html_a0c14db983a4407e8afb4159fdc4802d);
+            
+
+            marker_7c315001abc64e30b52a2dca959d5051.bindPopup(popup_7a3869bccb894ef5a58ed48e26b5305c);
+
+            
+        
+    
+
+            var marker_b57e9eafa86e4b19a609b505eb8a36da = L.marker(
+                [47.9190005232,-91.6025401878],
+                {
+                    icon: new L.Icon.Default()
+                    }
+                )
+                .addTo(map_0fa9010fa9f449b39f2d33ad4019c42e);
+            
+    
+            var popup_f1a7d4dd8e85407185bd91c1a365ac45 = L.popup({maxWidth: '300'});
+
+            
+                var html_c73f495ff5744b6b8202a489ce665a0d = $('<div id="html_c73f495ff5744b6b8202a489ce665a0d" style="width: 100.0%; height: 100.0%;">Day 3: Kawishiwi River</div>')[0];
+                popup_f1a7d4dd8e85407185bd91c1a365ac45.setContent(html_c73f495ff5744b6b8202a489ce665a0d);
+            
+
+            marker_b57e9eafa86e4b19a609b505eb8a36da.bindPopup(popup_f1a7d4dd8e85407185bd91c1a365ac45);
+
+            
+        
+    
+
+            
+
+                var geo_json_b1eb07aaeaba43c5b8f3a800a3296c84 = L.geoJson(
+                    {"crs": {"properties": {"name": "urn:ogc:def:crs:OGC:1.3:CRS84"}, "type": "name"}, "features": [{"geometry": {"coordinates": [[-91.7216465826476, 47.889599027813574], [-91.72226782254457, 47.89319190078607], [-91.72001582791802, 47.89694071986726], [-91.71357046398687, 47.90402108206378], [-91.71102726315861, 47.90478893078641], [-91.70543610408579, 47.9044765869176], [-91.70248521457515, 47.90588211948493], [-91.6926230312106, 47.90864101686796], [-91.68866262686738, 47.90921359978322], [-91.68299381280744, 47.90989028051597], [-91.67848982355433, 47.91061900371806], [-91.6718309084086, 47.90921359978322], [-91.66623974933579, 47.90843280332818], [-91.66173576008269, 47.90775610353885], [-91.65989145413853, 47.90831568284395], [-91.65895959429307, 47.909304691935674], [-91.65849366437033, 47.91003342338337], [-91.65632175144916, 47.91083046165501]], "type": "LineString"}, "properties": {"Day": 1, "Mileage": 3.9764, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.65632175144916, 47.91083046165501], [-91.65585582152642, 47.91096709555475], [-91.65544813284403, 47.91096709555475], [-91.65520546100926, 47.91095408281793]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.0539, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.65520546100926, 47.91095408281793], [-91.65279146567396, 47.91044995481156], [-91.65173633589274, 47.90975154635922], [-91.65188141623766, 47.90857572349671], [-91.65151212081423, 47.90805410931217], [-91.65075188308951, 47.907850724886], [-91.65075188308951, 47.907850724886]], "type": "LineString"}, "properties": {"Day": 1, "Mileage": 0.3456, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.65075188308951, 47.907850724886], [-91.6490292336306, 47.90803654396262], [-91.6485193689919, 47.907880588711166], [-91.64778179781554, 47.90687184552204], [-91.64794515250561, 47.90618827810695], [-91.64704917678132, 47.905344590828356], [-91.64712837905527, 47.904689209705694], [-91.64574233926076, 47.90391601523069], [-91.64419294477617, 47.9042312675914], [-91.64288610725562, 47.903950029393584]], "type": "LineString"}, "properties": {"Day": 1, "Mileage": 0.5722, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.64288610725562, 47.903950029393584], [-91.64066110570786, 47.903524113601826], [-91.63817846349613, 47.90350911976073], [-91.63528204758245, 47.90405639214698], [-91.63462224627392, 47.90481356768874]], "type": "LineString"}, "properties": {"Day": 1, "Mileage": 0.4232, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.63462224627392, 47.90481356768874], [-91.63437411997769, 47.90168706962553], [-91.63417434380592, 47.90041471045183], [-91.6331754629472, 47.89918696581455], [-91.63114440520108, 47.897378779788276], [-91.63011222831372, 47.89624025989204], [-91.62976139747566, 47.89585040278896]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.6816, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.62976139747566, 47.89585040278896], [-91.62876844781086, 47.89521069015585], [-91.62741502034027, 47.89480971890378], [-91.62632913085798, 47.8937439644292]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.2219, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.62632913085798, 47.8937439644292], [-91.6277262642448, 47.889990423387744], [-91.6277607038004, 47.88917643154673], [-91.62853216563167, 47.888082096261485], [-91.62862118045835, 47.886967840213586], [-91.62681121231574, 47.88601274452169], [-91.62333963407501, 47.884381081972016], [-91.62133096703589, 47.88334653760587], [-91.62030373423916, 47.881853887050134], [-91.61944770690853, 47.87997844461665], [-91.6190245975395, 47.879859782345505]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 1.1761, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.6190245975395, 47.879859782345505], [-91.61863435727042, 47.87952917594975], [-91.6184700455782, 47.87918479204406], [-91.61843923713592, 47.87902637467872]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.0652, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.61843923713592, 47.87902637467872], [-91.61846056927043, 47.87727449852547], [-91.61775584818473, 47.87667143184686], [-91.61634640601334, 47.87657363658889], [-91.6144023478459, 47.87701371379612], [-91.61240968822428, 47.87756787977705], [-91.61192367368241, 47.878301325637985], [-91.6116320649573, 47.8788065823022], [-91.61034412642137, 47.8789043733455], [-91.60820566243719, 47.878725089625114]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.6888, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.60820566243719, 47.878725089625114], [-91.6074280391702, 47.878480610824774], [-91.60725793408055, 47.878301325637985]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.0546, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.60725793408055, 47.878301325637985], [-91.60626694529859, 47.87793494467976], [-91.6043224099529, 47.878100936533016], [-91.60251929535963, 47.87871747304629], [-91.60138792934035, 47.879808250443034], [-91.59969088031137, 47.88127839233713], [-91.59728672752038, 47.88308044484209], [-91.59495328510556, 47.8837680536163], [-91.59311296606067, 47.88459768863506], [-91.59236697669834, 47.88485973934942], [-91.59217751908251, 47.884962971085024]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.8972, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.59217751908251, 47.884962971085024], [-91.59158752017765, 47.88543022610335], [-91.5913652559791, 47.88573826963825], [-91.59120226223351, 47.88608605852425]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 0.0912, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.59120226223351, 47.88608605852425], [-91.59161331431964, 47.88696886592439], [-91.59109038798879, 47.8880527497565], [-91.58890360515056, 47.88996543059818], [-91.58766759745943, 47.89127238854725], [-91.5846251169889, 47.89356745439461], [-91.58158263651836, 47.896340523250736], [-91.57901554362137, 47.89777481093653], [-91.57653408478463, 47.89815080207669], [-91.57560346836384, 47.89823256642869]], "type": "LineString"}, "properties": {"Day": 2, "Mileage": 1.1837, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.57560346836384, 47.89823256642869], [-91.57650019520304, 47.89943283533067], [-91.57665076498866, 47.900467532747115], [-91.57608612829264, 47.90162838815915], [-91.5742040059726, 47.90299109825386], [-91.56772950519169, 47.90584257923027], [-91.56614852244283, 47.90696546446952], [-91.56490632171163, 47.90787384818631]], "type": "LineString"}, "properties": {"Day": 3, "Mileage": 0.9291, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.56490632171163, 47.90787384818631], [-91.56361883752956, 47.90959379721073]], "type": "LineString"}, "properties": {"Day": 3, "Mileage": 0.133, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.56361883752956, 47.90959379721073], [-91.56018789070285, 47.913132262053495], [-91.5558062720902, 47.915699103552754], [-91.55353184410804, 47.91883742668508]], "type": "LineString"}, "properties": {"Day": 3, "Mileage": 0.803, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.55353184410804, 47.91883742668508], [-91.55292978964218, 47.91773903524213], [-91.55363218651902, 47.916640620480194], [-91.55460216315846, 47.91616986415802], [-91.55537145497595, 47.915385260769725], [-91.55901722924145, 47.91536284335524], [-91.56192715915978, 47.91500416340258], [-91.56510466884072, 47.91424756472366], [-91.5673122018822, 47.91418031097237], [-91.56992110456761, 47.913575023277225], [-91.5713593457916, 47.912543776082174], [-91.5751723574087, 47.91059331758747], [-91.57671094104371, 47.9102570242101], [-91.57794849744577, 47.91131073615543], [-91.57955397602142, 47.915727125137224], [-91.579821555784, 47.91781188845783], [-91.58065774254217, 47.91856283101049], [-91.58279838064301, 47.919997437227046], [-91.58744757901829, 47.92006468341737], [-91.59236435715616, 47.91941463324937], [-91.59510704972287, 47.918966318029725], [-91.59781629481924, 47.91898873388297], [-91.60254018780505, 47.91900052316764]], "type": "LineString"}, "properties": {"Day": 3, "Mileage": 3.0551, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.60254018780505, 47.91900052316764], [-91.60228516391052, 47.918438817737815], [-91.60272243327576, 47.91802587834211], [-91.6032789579224, 47.91771950182196], [-91.60415349665284, 47.91771950182196]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.1496, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.60415349665284, 47.91771950182196], [-91.60518704242519, 47.918385535420335], [-91.6083473073829, 47.91857202329141], [-91.6100963848438, 47.918798471945465], [-91.61162682762206, 47.918971637894494], [-91.61327652568177, 47.918905035674996], [-91.61599952127429, 47.918452138308595], [-91.61663554944187, 47.91814576431264]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.612, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.61663554944187, 47.91814576431264], [-91.618338936148, 47.91771993651329], [-91.62112296276663, 47.9178513339949], [-91.62367171953014, 47.91790389289411], [-91.62704392078649, 47.917273182579706], [-91.62862892183433, 47.91734405036193], [-91.62936775434571, 47.91744476219918]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.6038, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.62936775434571, 47.91744476219918], [-91.63065758059436, 47.91743636955357]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.0599, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.63065758059436, 47.91743636955357], [-91.63316753028822, 47.917028509646755], [-91.63528408696081, 47.9168414505219], [-91.63991260100303, 47.91662321402147], [-91.64163375697854, 47.91660762566479], [-91.64226174632095, 47.91613997278047]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.558, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.64226174632095, 47.91613997278047], [-91.64205241654015, 47.91550084033619]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.0452, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.64205241654015, 47.91550084033619], [-91.64150718905415, 47.91448174120197], [-91.64358610384986, 47.91335196949131], [-91.64594595307739, 47.91154428344755], [-91.6478001203276, 47.91079106229219], [-91.65212651057811, 47.910941707400305], [-91.65520546100926, 47.91095408281793]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 0.81, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.7216465826476, 47.889599027813574], [-91.72526664544287, 47.889212970814754], [-91.7212304827938, 47.90183202857599], [-91.71526398148647, 47.903243759823745], [-91.71102726315861, 47.90478893078641], [-91.70543610408579, 47.9044765869176], [-91.70248521457515, 47.90588211948493], [-91.6926230312106, 47.90864101686796], [-91.68866262686738, 47.90921359978322], [-91.68299381280744, 47.90989028051597], [-91.67848982355433, 47.91061900371806], [-91.6718309084086, 47.90921359978322], [-91.66623974933579, 47.90843280332818], [-91.66173576008269, 47.90775610353885], [-91.65989145413853, 47.90831568284395], [-91.65895959429307, 47.909304691935674], [-91.65849366437033, 47.91003342338337], [-91.65632175144916, 47.91083046165501]], "type": "LineString"}, "properties": {"Day": 4, "Mileage": 4.3239, "Portage": 0, "highlight": {}, "style": {"color": "orange", "weight": 3}}, "type": "Feature"}, {"geometry": {"coordinates": [[-91.65632175144916, 47.91083046165501], [-91.65585582152642, 47.91096709555475], [-91.65544813284403, 47.91096709555475], [-91.65520546100926, 47.91095408281793]], "type": "LineString"}, "properties": {"Day": 1, "Mileage": 0.0539, "Portage": 1, "highlight": {}, "style": {"color": "green", "weight": 3}}, "type": "Feature"}], "name": "routeNoPrj", "type": "FeatureCollection"}
+                    
+                    ).addTo(map_0fa9010fa9f449b39f2d33ad4019c42e);
+                geo_json_b1eb07aaeaba43c5b8f3a800a3296c84.setStyle(function(feature) {return feature.properties.style;});
+
+            
+    
+            var layer_control_03124ed7357d44d0ab012bdd85f53fa9 = {
+                base_layers : { "https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png" : tile_layer_d421fe8244814ba7a6c2b4434bc64c11, },
+                overlays : { "Route" : geo_json_b1eb07aaeaba43c5b8f3a800a3296c84, }
+                };
+            L.control.layers(
+                layer_control_03124ed7357d44d0ab012bdd85f53fa9.base_layers,
+                layer_control_03124ed7357d44d0ab012bdd85f53fa9.overlays,
+                {position: 'topright',
+                 collapsed: true,
+                 autoZIndex: true
+                }).addTo(map_0fa9010fa9f449b39f2d33ad4019c42e);
+        
+</script>
